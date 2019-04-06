@@ -14,6 +14,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^0.1.2",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0"
   },
