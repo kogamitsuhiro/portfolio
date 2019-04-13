@@ -1,5 +1,3 @@
-import pkg from './package'
-
 export default {
   generate: {
     fallback: true
