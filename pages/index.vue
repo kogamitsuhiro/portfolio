@@ -2,26 +2,26 @@
   <div class="page-index">
     <section class="about">
       <h2 class="section-title">
-        夏目漱石
+        Koga Mitsuhiro
       </h2>
       <div class="article-body">
-        <img src="~/assets/img/portrait.jpg" alt="夏目漱石">
-        <p>日本の小説家、評論家、英文学者。本名、夏目 金之助（なつめ きんのすけ）。江戸の牛込馬場下横町（現在の東京都新宿区喜久井町）出身。俳号は愚陀仏。詳細は<a href="https://ja.wikipedia.org/wiki/夏目漱石" target="_blank">ウィキペディア</a>を。</p>
+        <img src="~/assets/img/portrait.jpg">
+        <p>古賀光弘(コガミツヒロ)</p>
       </div>
     </section>
 
     <section class="works">
       <h2 class="section-title">
-        代表作
+        Hello, World!
       </h2>
       <ArticleBody>
-        <p>『吾輩は猫である』（1905年）がデビュー作である。</p>
-        <ul>
-          <li>『吾輩は猫である』（1905年）</li>
-          <li>『坊っちゃん』（1906年）</li>
-          <li>『草枕』（1906年）</li>
-          <li>『三四郎』（1908年）</li>
-        </ul>
+        <p>
+          古賀光弘(コガミツヒロ)です。<br>
+          <br>
+          1994年うまれ、佐賀県出身。<br>
+          フィリピン留学を経て、高知県にあるベンチャー企業に入社しました。<br>
+          Reactを使ったチャットボットサービスの機能追加・保守・運用したり、GASで業務改善のスクリプト組んだり、WordPressでサイト構築したり、WEBサービスのテスト設計・デバックなどしてます。
+        </p>
       </ArticleBody>
     </section>
   </div>
