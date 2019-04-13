@@ -15,6 +15,11 @@
 import ArticleBody from '~/components/common/ArticleBody'
 
 export default {
+  head() {
+    return {
+      title: 'Contact'
+    }
+  },
   components: {
     ArticleBody
   }

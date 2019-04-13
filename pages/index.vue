@@ -31,6 +31,11 @@
 import ArticleBody from '~/components/common/ArticleBody'
 
 export default {
+  head() {
+    return {
+      title: 'Home'
+    }
+  },
   components: {
     ArticleBody
   }

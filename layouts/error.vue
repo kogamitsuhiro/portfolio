@@ -16,6 +16,11 @@
 import ArticleBody from '~/components/common/ArticleBody'
 
 export default {
+  head() {
+    return {
+      title: '404'
+    }
+  },
   components: {
     ArticleBody
   }
