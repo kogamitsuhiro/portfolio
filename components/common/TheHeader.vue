@@ -1,9 +1,8 @@
 <template>
   <header class="header">
     <div class="header-inner">
-      <h1>my-portfolio</h1>
-      <nuxt-link to="/about">
-        自己紹介
+      <nuxt-link to="/">
+        <img src="~/assets/img/NEGUSE_header.png" class="header-img">
       </nuxt-link>
     </div>
   </header>
@@ -18,19 +17,17 @@ export default {
 <style scoped lang="scss">
 
   .header {
-    background-color: $color-gray;
+    background-color: $color-deepgray;
+    color: #eee;
   }
 
   .header-inner {
-    height: 60px;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     a {
       color: inherit;
     }
+  }
+
+  .header-img {
+    height: 8vh;
   }
 </style>

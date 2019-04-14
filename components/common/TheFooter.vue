@@ -13,7 +13,8 @@ export default {
 <style scoped lang="scss">
 
   .footer {
-    background-color: $color-gray;
+    color: #eee;
+    background-color: $color-deepgray;
     text-align: center;
     line-height: 30px;
   }
