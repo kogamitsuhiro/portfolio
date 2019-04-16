@@ -1,9 +1,7 @@
 <template>
   <header class="header">
     <div class="header-inner">
-      <nuxt-link to="/">
-        <img src="~/assets/img/NEGUSE_header.png" class="header-img">
-      </nuxt-link>
+      <p>コガミツヒロのポートフォリオ「NEGUSE」</p>
     </div>
   </header>
 </template>
@@ -15,19 +13,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-  .header {
-    background-color: $color-deepgray;
-    color: #eee;
-  }
-
-  .header-inner {
-    a {
-      color: inherit;
-    }
-  }
-
-  .header-img {
-    height: 8vh;
-  }
+.header {
+  background-color: $color-deepgray;
+  color: #eee;
+}
+.header-inner {
+  padding: 5px;
+}
 </style>
