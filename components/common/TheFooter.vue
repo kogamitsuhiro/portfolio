@@ -1,6 +1,8 @@
 <template>
   <footer class="footer">
     © my-portfolio.
+    <font-awesome-icon :icon="['fab', 'github-square']" />
+    <font-awesome-icon :icon="['fab', 'facebook']" />
   </footer>
 </template>
 
