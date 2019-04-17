@@ -6,13 +6,14 @@
 
 <style scoped lang="scss">
   .article-body {
+    margin: 20px 0;
     h3 {
-      font-size: 20px;
-      margin: 30px 0 20px;
+      font-size: 1.4rem;
+      margin: 10px;
     }
 
     p {
-      line-height: 1.75;
+      line-height: 1.5;
 
       + p {
         margin-top: 20px;

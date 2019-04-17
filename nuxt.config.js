@@ -45,7 +45,8 @@ export default {
   */
   modules: [
     '@nuxtjs/style-resources',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    'nuxt-webfontloader'
   ],
 
   styleResources: {
@@ -66,6 +67,12 @@ export default {
         icons: ['fab']
       }
     ]
+  },
+
+  webfontloader: {
+    google: {
+      families: ['Varela Round']
+    }
   },
 
   /*

@@ -2,7 +2,7 @@
   <div class="page-about">
     <section class="history">
       <h2 class="section-title">
-        経歴
+        Career
       </h2>
       <ArticleBody>
         <h3>2017年</h3>
@@ -25,13 +25,13 @@
     </section>
     <section class="motivation">
       <h2 class="section-title">
-        モチベーション・今やりたいこと
+        Motivation
       </h2>
       <ArticleBody>
         <p>
-          問題解決や業務改善のために技術を使うことにモチベーションを感じます。
-          (「古賀くん、ここの問題どうにかならない？」と相談するとニヤニヤしてるらしいです。)<br>
-          プログラミングは目的達成の”手段”としか思わない人間でしたが、<br>
+          問題解決や業務改善のために技術を使うことにモチベーションを感じます。<br>
+          (「古賀くん、ここの問題どうにかならない？」と相談するとニヤニヤしてるらしいです。)<br><br>
+          プログラミングは目的達成の”手段”としか思わない人間でしたが、
           最近はスキルが少しづつ付いてきて、実現出来ることが増えることにもモチベーションを感じています。<br>
           貢献度が高く、スキルが身に付く事をやっていきたいです。
         </p>
@@ -39,7 +39,7 @@
     </section>
     <section class="skill">
       <h2 class="section-title">
-        スキル
+        Skills
       </h2>
       <ArticleBody>
         <p>ES2015 / React / Vue / Nuxt / WordPress / Google Apps Script / AWS</p>
@@ -47,7 +47,7 @@
     </section>
     <section class="event">
       <h2 class="section-title">
-        LT発表・イベント
+        LT / Event
       </h2>
       <ArticleBody>
         <ul>
