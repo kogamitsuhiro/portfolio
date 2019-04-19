@@ -11,6 +11,7 @@ section {
 }
 
 a {
+  text-decoration: none;
   &:link {
     color: $color-blue;
   }

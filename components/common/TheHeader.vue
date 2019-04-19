@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <div class="header-inner">
-      <p>コガミツヒロのポートフォリオ「NEGUSE」</p>
+      <nuxt-link to="/">
+        <p>コガミツヒロのポートフォリオ「NEGUSE」</p>
+      </nuxt-link>
     </div>
   </header>
 </template>
@@ -16,8 +18,13 @@ export default {
 .header {
   background-color: $color-deepgray;
   color: #eee;
-}
-.header-inner {
-  padding: 5px;
+  .header-inner {
+    padding: 5px;
+
+    a {
+      text-decoration: none;
+      color: #eee;
+    }
+  }
 }
 </style>
