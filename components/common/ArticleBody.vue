@@ -10,6 +10,7 @@
     h3 {
       font-size: 1.4rem;
       margin: 10px;
+      font-family: 'Varela Round';
     }
 
     p {
@@ -25,8 +26,6 @@
     }
 
     ul {
-      list-style: circle;
-      margin-top: 20px;
       margin-left: 20px;
 
       li {
