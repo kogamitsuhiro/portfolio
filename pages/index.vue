@@ -29,6 +29,21 @@
       </ArticleBody>
     </section>
 
+    <section class="qiita">
+      <h2 class="section-title">
+        Qiita Article!
+      </h2>
+      <ArticleBody>
+        <p>Qiitaにアウトプットしてます。</p>
+        <ul>
+          <li v-for="item in lists" :key="item.id">
+            {{ item.dateText }}
+            <a :href="item.url" target="_blank">{{ item.title }}</a>
+          </li>
+        </ul>
+      </ArticleBody>
+    </section>
+
     <section class="contact">
       <h2 class="section-title">
         Please message!
@@ -43,16 +58,37 @@
 
 <script>
 import ArticleBody from '~/components/common/ArticleBody'
+import axios from 'axios'
 
 export default {
+  components: {
+    ArticleBody
+  },
+  data() {
+    return {
+      lists: []
+    }
+  },
   head() {
     return {
       title: 'Home'
     }
   },
-  components: {
-    ArticleBody
+  created() {
+    axios
+      .get('https://qiita.com/api/v2/users/mitsuhiro_K/items', {
+        params: {
+          page: 1,
+          per_page: 5
+        }
+      })
+      .then((response) => {
+        this.lists = response.data
+      })
+      .catch((e) => {
+      })
   }
+
 }
 </script>
 
