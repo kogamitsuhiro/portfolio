@@ -45,6 +45,7 @@ export default {
   */
   modules: [
     '@nuxtjs/style-resources',
+    '@nuxtjs/axios',
     'nuxt-fontawesome',
     'nuxt-webfontloader'
   ],
@@ -93,5 +94,7 @@ export default {
         })
       }
     }
+  },
+  axios: {
   }
 }
